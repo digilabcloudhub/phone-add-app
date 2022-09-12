@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import { useState } from "react";
+import PhoneBook from "./PhoneBook";
 import './App.css';
+import InformationTable from "./InformationTable";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+const [entry,setEntry]=useState([]);
+
+const addUser =(item) =>{
+  setEntry([...entry,item]);
+  
 }
-
+  return(
+    <div class="formData">
+    <h3>React Phone Book App</h3>
+    <PhoneBook addUser={addUser}/>
+    <InformationTable entry={entry}/>
+    </div>
+  )
+}
 export default App;
