@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-phonebookapp-dev-111705-authRole",
+      "UnauthRoleArn": "arn:aws:iam::380218895013:role/amplify-phonebookapp-dev-111705-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::380218895013:role/amplify-phonebookapp-dev-111705-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-phonebookapp-dev-111705-deployment",
+      "UnauthRoleName": "amplify-phonebookapp-dev-111705-unauthRole",
+      "StackName": "amplify-phonebookapp-dev-111705",
+      "StackId": "arn:aws:cloudformation:us-west-2:380218895013:stack/amplify-phonebookapp-dev-111705/3939c8a0-334d-11ed-ae88-068ecdf393ab",
+      "AmplifyAppId": "d1eyrpx4ic8me2"
+    }
+  }
+}
